@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cute Hello World</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Zen+Maru+Gothic:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+
+        <div class="card">
+            <header>
+                <span class="icon">🌍</span>
+                <h2>Global Hello</h2>
+            </header>
+
+            <div class="controls">
+                <label for="language-select">選擇語言 / Select Language</label>
+                <div class="select-wrapper">
+                    <select id="language-select">
+                        <option value="zh-TW">🇹🇼 繁體中文</option>
+                        <option value="en-US">🇺🇸 English</option>
+                        <option value="ja-JP">🇯🇵 日本語</option>
+                        <option value="fr-FR">🇫🇷 Français</option>
+                        <option value="es-ES">🇪🇸 Español</option>
+                        <option value="code">💻 Python Style</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="display-area">
+                <h1 id="greeting-text"></h1>
+                <span class="cursor">|</span>
+            </div>
+
+            <div class="actions">
+                <button id="btn-speak" title="朗讀 (Speak)" class="btn primary">
+                    🔊 聽聽看
+                </button>
+                <button id="btn-copy" title="複製 (Copy)" class="btn secondary">
+                    📋 複製
+                </button>
+            </div>
+            
+            <div id="toast" class="toast hidden">已複製到剪貼簿！✨</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
